@@ -49,7 +49,7 @@ body{
     object-fit: cover;
 }
 
-.profile_pic {
+#profile_pic {
     width: 15vw;
     height: 15vw;
 

@@ -2,6 +2,7 @@
   <head>
     <link rel="stylesheet" href="./style.css" />
     <script src="https://kit.fontawesome.com/8253e2d9ac.js" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
   </head>
   <body>
     <div id="top">
@@ -13,20 +14,20 @@
       </div>
     </div>
     <div id="profile">
-      <div class="profile_pic">
+      <div id="profile_pic">
         <img class="circle_pic" src="image/profile.jpg" height="200px" />
       </div>
       <div id="profile_info">
-        <div id="id">half_bottle<i class="fa-solid fa-gear"></i></div>
+        <div id="id"><span>half_bottle</span><i class="fa-solid fa-gear"></i></div>
         <button>프로필 편집</button>
       </div>
     </div>
     <div>
       <p>
-        <strong>반병현 (Byunghyun Ban)</strong>
-        <br />작가
+        <strong id="userInfo">반병현 (Byunghyun Ban)</strong>
+        <br /><span id="summary">작가</span>
       </p>
-      <p>
+      <p id="profileDetail">
         <a href="https://needleworm.github.io"> needleworm.github.io </a>
       </p>
     </div>
@@ -60,10 +61,10 @@
       </div>
     </div>
     <div id="sub_icons">
-          <div class="selected"><i class="fa-regular fa-heart"></i></div>
-          <div><i class="fa-solid fa-phone"></i></div>
-          <div><i class="fa-solid fa-calendar-days"></i></div>
-          <div><i class="fa-solid fa-globe"></i></div>
+      <div class="selected"><i class="fa-regular fa-heart"></i></div>
+      <div><i class="fa-solid fa-phone"></i></div>
+      <div><i class="fa-solid fa-calendar-days"></i></div>
+      <div><i class="fa-solid fa-globe"></i></div>
     </div>
     <div>
       <div class="thumbnail_grid">
